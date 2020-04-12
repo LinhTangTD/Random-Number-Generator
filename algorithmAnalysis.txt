@@ -1,0 +1,32 @@
+LCG TEST
+We found that as modulus increases and as seed decreases, length of random number sequence without duplication increases.
+Test LCG with seed = 45 and other parameters: a = 7 b = 133 m = 1000
+Length of sequence: 20
+Test LCG with seed = 45 and other parameters: a = 2 b = 3 m = 5
+Length of sequence: 5
+Test LCG with seed = 45 and other parameters: a = 2 b = 10 m = 500
+Length of sequence: 22
+Test LCG with seed = 200 and other parameters: a = 2 b = 10 m = 500
+Length of sequence: 21
+
+LFSR TEST
+We found that as number of bit increases and as seed decreases, length of random number sequence without duplication increases.
+Test LFSR with seed = 45 and bit = 8
+Length of sequence: 255
+Test LFSR with seed = 45 and bit = 16
+Length of sequence: 1000
+Test LFSR with seed = 200 and bit = 16
+Length of sequence: 514
+Test LFSR with seed = 200 and bit = 32
+Length of sequence: 1000
+
+BBS TEST
+We found that as M increases and as seed decreases, length of random number sequence without duplication increases.
+Test BBS with seed = 45 and other parameters: p = 1091 q = 1109 M = 1209919
+Length of sequence: 828
+Test BBS with seed = 45 and other parameters: p = 433 q = 439 M = 190087
+Length of sequence: 22
+Test BBS with seed = 200 and other parameters: p = 433 q = 439 M = 190087
+Length of sequence: 20
+Test BBS with seed = 200 and other parameters: p = 3673 q = 4337 M = 15929801
+Length of sequence: 1000
